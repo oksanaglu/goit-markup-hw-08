@@ -1,0 +1,77 @@
+.button-filter {
+
+    display: flex;
+
+    padding: 6px, 22px;
+    margin-right: 0;
+
+    color: var(--primary-text-color);
+    background-color: var(--secondary-dg-but-color);
+
+    font-family: var(--main-font), sans-serif;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    align-items: center;
+
+    transition: color var(--animation-transition), background-color var(--animation-transition), box-shadow var(--animation-transition);
+
+    &:hover,
+        &:focus {
+            color: var(--primary-white-color);
+            background-color: var(--accent-color);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    &__item:nth-child(n+2) {
+            margin-left: 8px;
+        }
+
+                &__all {
+                    width: 73px;
+                    height: 38px;
+                    left: 510px;
+                    top: 162px;
+                }
+        
+                &__veb {
+                    width: 128px;
+                    height: 38px;
+                    left: 591px;
+                    top: 162px;
+                }
+        
+                &__app {
+                    width: 145px;
+                    height: 38px;
+                    left: 727px;
+                    top: 162px;
+                }
+        
+                &__des {
+                    width: 103px;
+                    height: 38px;
+                    left: 880px;
+                    top: 162px;
+                }
+        
+                &__mark {
+                    width: 130px;
+                    height: 38px;
+                    left: 991px;
+                    top: 162px;
+                }
+}
+
+
+
+

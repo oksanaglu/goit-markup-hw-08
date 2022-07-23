@@ -1,0 +1,16 @@
+.form {
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &-field {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+}
+

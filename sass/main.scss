@@ -1,0 +1,36 @@
+// utils styles
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+// base styles
+@import "./base/common";
+@import "./base/reset";
+
+// components styles
+@import "./components/buttons";
+@import "./components/container";
+@import "./components/section";
+@import "./components/socials";
+@import "./components/title";
+@import "./components/logo";
+@import "./components/overlay";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form/module";
+@import "./components/mobile-menu";
+
+// layout styles
+@import "./layouts/page-header";
+@import "./layouts/_hero";
+@import "./layouts/feature";
+@import "./layouts/work";
+@import "./layouts/team";
+@import "./layouts/partners";
+@import "./layouts/footer";
+@import "./layouts/footer-form";
+@import "./layouts/filter";
+@import "./layouts/portfolio";
+
+

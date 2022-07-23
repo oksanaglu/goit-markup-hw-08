@@ -1,0 +1,121 @@
+
+.portfolio {
+    @extend %section;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.projects-element__box {
+    border: 1px solid #EEEEEE;
+    padding: 20px 24px;
+    border-top: none;
+
+}
+
+.projects-element__link {
+    display: block;
+    text-decoration: none;
+
+    transition: box-shadow var(--animation-transition);
+}
+
+
+.projects-element__title {
+    margin-top: 0;
+    margin-bottom: 4px;
+
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.projects-element__text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: var(--title-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+
+}
+
+
+.projects-element {
+    width: calc((100% - 60px) / 3);
+    display: block;
+
+    transition: box-shadow var(--animation-transition);
+
+
+    &:hover,
+        &:focus {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    
+        }
+
+}
+
+
+
+.projects-element:nth-child(-n + 6) {
+    margin-bottom: 30px;
+
+}
+
+.projects-element:nth-child(3n+2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* Позиционирование элементов портфолио */
+
+.projects-element__img {
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.projects-element__info {
+    position: absolute;
+
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    padding: 63px 24px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-white-color);
+    background-color: rgba(33, 150, 243, 0.9);
+
+    transform: translateY(100%);
+    transition: transform var(--animation-transition), opacity var(--animation-transition);
+
+    opacity: 0;
+
+}
+
+
+.projects-element:hover .projects-element__info {
+    opacity: 1;
+    transform: translateY(0);
+
+}
