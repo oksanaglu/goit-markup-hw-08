@@ -1,11 +1,32 @@
 
 .portfolio {
-    @extend %section;
+    // @extend %section;
+
+    padding-top: 60px;
+        padding-bottom: 60px;
+    
+        @media screen and (min-width: 1200px) {
+            padding-top: 94px;
+            padding-bottom: 94px;
+    
+        }
 }
 .projects {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+
+    // @media screen and (max-width: 1199px) {
+    //         display: flex;
+    //         flex-wrap: wrap;
+    //         gap: 30px;
+    
+    //     }
+
+
+
+
+
 }
 
 .projects-element__box {
