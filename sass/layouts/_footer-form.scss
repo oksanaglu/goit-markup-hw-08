@@ -1,6 +1,6 @@
 .footer-sign {
     margin-left: auto;
-
+   
 }
 
 .footer-text {
@@ -15,21 +15,37 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+
+    @media screen and (max-width: 1199px) {
+        display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+    }
+
 }
 
 
 .footer-form {
-    display: flex;
+  
+       
 
-    width: 570px;
-    height: 86px;
+
+    @media screen and (min-width: 1200px) {
+            display: flex;
+            
+                width: 570px;
+                height: 86px;
+    }
 
     & input {
 
-        margin-right: 12px;
+       
+        
 
         padding-left: 30px;
-        width: 358px;
+        width: 450px;
         height: 50px;
 
         color: rgba(255, 255, 255, 0.3);
@@ -40,6 +56,22 @@
         background: var(--secondary-bg-gray-color);
         outline: transparent;
 
+        @media screen and (min-width: 1200px) {
+            width: 358px;
+            margin-right: 12px;
+            
+        }
+
+                @media screen and (max-width: 1199px) {
+                    display: flex;
+                    justify-content: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                }
+
+
+              
     }
 
     & input::placeholder {
@@ -66,6 +98,7 @@
 
     margin: 0;
     padding: 0;
+ 
     width: 200px;
     height: 50px;
     font-weight: 700;
@@ -81,6 +114,13 @@
     &__icon {
         margin-left: 10px;
     }
+
+        @media screen and (max-width: 1199px) {
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
 
 }
 

@@ -1,5 +1,5 @@
 
-.feature {
+.benefit {
    padding-top: 60px;
    padding-bottom: 60px;
 
@@ -12,7 +12,7 @@
 
 }
 
-.feature-list {
+.benefit-list {
 
 @media screen and (min-width: 768px) {
     display: flex;
@@ -30,7 +30,7 @@
 
 
 
-.feature-item {
+.benefit-item {
     @media screen and (min-width: 768px) {
             width: 354px;
             // width: calc((100% - 2 * 30px) / 2);
@@ -63,7 +63,7 @@
     
 
 
-.feature-item__title {
+.benefit-item__title {
     margin: 0;
     margin-bottom: 10px;
 
@@ -84,7 +84,7 @@
 
 
 
-.feature-item__text {
+.benefit-item__text {
      margin: 0;
 
      color: #757575;
@@ -96,7 +96,7 @@
 
 }
 
-.feature-item__icon {
+.benefit-item__icon {
       display: flex;
       height: 120px;
       justify-content: center;
