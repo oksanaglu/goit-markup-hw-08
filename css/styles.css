@@ -1340,7 +1340,7 @@ textarea {
 .checkbox:checked + .form-chek__icon {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
-    background-image: url(../imges/vector.svg);
+    background-image: url(../images/vector.svg);
     background-repeat: no-repeat;
 }
 
