@@ -16,8 +16,6 @@
         }
 }
 
-
-
 textarea {
     resize: none;
 }
@@ -31,11 +29,8 @@ textarea {
     transition: var(--animation-transition);
 
    &:focus {
-    
-            border: 1px solid var(--accent-color);
-    
-        }
-    
+    border: 1px solid var(--accent-color);
+     }
     
       &::placeholder {
     

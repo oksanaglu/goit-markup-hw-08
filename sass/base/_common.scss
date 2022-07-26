@@ -4,22 +4,11 @@ body {
 
     font-family: var(--main-font), sans-serif;
     letter-spacing: 0.03em
-
- 
-
-    // &.no-scroll {
-    //         overflow: hidden;
-    //     }
 }
 
-// * {
-//     outline: 1px solid red;
-// }
 
-// body.modal-open {
-//        overflow: hidden;
-//    }
 
-// .body.no-scroll {
-//                overflow: hidden;
-//            }
+body.modal-open {
+       overflow: hidden;
+   }
+

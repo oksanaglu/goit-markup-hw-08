@@ -13,12 +13,9 @@
     
         }
     
-       &:focus+.form-icon {
-    
-            fill: var(--accent-color);
-    
-    
-        }
+    &:focus+.form-icon {
+        fill: var(--accent-color);
+    }
 
 
 }

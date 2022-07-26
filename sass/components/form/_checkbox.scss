@@ -17,7 +17,7 @@
     justify-content: center;
     font-weight: 400;
     font-size: 12px;
-        line-height: 16px;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 
@@ -32,7 +32,7 @@
     
     
     
-        &__icon {
+    &__icon {
             display: inline-block;
     
             width: 16px;
@@ -46,17 +46,17 @@
         }
 
 
-                 @media screen and (min-width: 1200px) {
-                    font-size: 14px;
-                        line-height: 1.72;
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.72;
         
-                 }
+    }
 }
 
 
 .checkbox:checked+.form-chek__icon {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
-    background-image: url(../imges/vector.svg);
+    background-image: url(../images/vector.svg);
     background-repeat: no-repeat;
 }

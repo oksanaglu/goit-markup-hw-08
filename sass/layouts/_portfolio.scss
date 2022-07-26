@@ -13,13 +13,10 @@
 }
 .projects {
     display: flex;
-        flex-wrap: wrap;
-        padding-left: 0;
+    flex-wrap: wrap;
+    padding-left: 0;
 
-
-        
-
-        @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
             justify-content: center;
 
         }
@@ -82,11 +79,7 @@
 
 
 .projects-element {
-    // display: block;
-   
-        padding-bottom: 30px;
-       
-
+    padding-bottom: 30px;
     transition: box-shadow var(--animation-transition);
 
 
@@ -101,8 +94,8 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    //   width: calc((100% - 60px) / 2);
-      display: block;
+   
+    display: block;
     width: 354px;
     margin: 15px;
 
@@ -110,8 +103,7 @@
 
 @media screen and (min-width: 1200px) {
      width: calc((100% - 60px) / 3);
-                    // display: block;
-
+      
  }                                                               
 
 }

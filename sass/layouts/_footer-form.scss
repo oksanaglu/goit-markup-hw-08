@@ -28,24 +28,16 @@
 
 
 .footer-form {
-  
-       
-
-
     @media screen and (min-width: 1200px) {
             display: flex;
-            
-                width: 570px;
-                height: 86px;
+            width: 570px;
+            height: 86px;
     }
 
     & input {
 
-       
-        
-
         padding-left: 30px;
-        width: 450px;
+        
         height: 50px;
 
         color: rgba(255, 255, 255, 0.3);
@@ -55,6 +47,12 @@
         border-radius: 4px;
         background: var(--secondary-bg-gray-color);
         outline: transparent;
+
+        @media screen and (min-width: 480px) {
+                width: 450px;
+               
+        
+            }
 
         @media screen and (min-width: 1200px) {
             width: 358px;

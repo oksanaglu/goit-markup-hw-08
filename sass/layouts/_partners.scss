@@ -23,17 +23,13 @@
 
 .partner-item__link {
 
-    @media screen and (max-width: 767px) {
-        width: 210px;
+ @media screen and (min-width: 768px) {
+            width: 226px;
+        }
 
-
-    }
-
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-        width: 226px;
-
-
-    }
+@media screen and (min-width: 1200px) {
+            width: 170px;
+        }
 
     display: flex;
     text-align: center;
@@ -42,8 +38,10 @@
 
     color: var(--svg-icon-color-gray);
 
-    width: 170px;
+   
     height: 92px;
+
+    width: 210px;
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -60,10 +58,6 @@
 
 }
 
-// .partner-item:not(:last-child) {
-//     margin-right: 30px;
-
-// }
 
 .partner-item__icon {
     fill: currentColor;
