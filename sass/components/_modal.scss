@@ -28,10 +28,12 @@
     
         }
 
-
-
-
 }
+
+.body.modal-open {
+    overflow: hidden;
+}
+
 
 .button-close {
     fill: currentColor;

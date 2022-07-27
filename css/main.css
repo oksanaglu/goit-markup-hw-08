@@ -280,6 +280,10 @@ img {
   }
 }
 
+.body.modal-open {
+  overflow: hidden;
+}
+
 .button-close {
   fill: currentColor;
   width: 11px;
@@ -576,6 +580,9 @@ textarea {
   .mobile-menu-btn {
     display: none;
   }
+}
+.mobile-menu-btn.is-open {
+  overflow: hidden;
 }
 
 .mobile-menu-burger {
